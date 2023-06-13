@@ -58,7 +58,7 @@ namespace Employe_Management_System.Controllers
                 return BadRequest(ModelState);
             }
 
-            var e = await _context.departments.FindAsync(dto.Department_Id);
+            var e = await _context.departments.FindAsync(dto.DepartmentId);
             if (e == null)
             {
                 return BadRequest("Please Enter valid Department ID");

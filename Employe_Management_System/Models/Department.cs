@@ -12,6 +12,5 @@ namespace Employe_Management_System.Models
         [MaxLength(50)]
         public string Name { get; set; }
 
-        public ICollection<Employee> Employees { get; set; }
     }
 }

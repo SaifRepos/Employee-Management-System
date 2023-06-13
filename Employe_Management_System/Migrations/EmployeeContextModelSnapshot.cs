@@ -50,7 +50,7 @@ namespace Employe_Management_System.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("integer");
 
-                    b.Property<int>("Department_Id")
+                    b.Property<int>("DepartmentId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Name")
@@ -63,7 +63,7 @@ namespace Employe_Management_System.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Department_Id");
+                    b.HasIndex("DepartmentId");
 
                     b.ToTable("Employees");
                 });
@@ -71,17 +71,12 @@ namespace Employe_Management_System.Migrations
             modelBuilder.Entity("Employe_Management_System.Models.Employee", b =>
                 {
                     b.HasOne("Employe_Management_System.Models.Department", "Department")
-                        .WithMany("Employees")
-                        .HasForeignKey("Department_Id")
+                        .WithMany()
+                        .HasForeignKey("DepartmentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Department");
-                });
-
-            modelBuilder.Entity("Employe_Management_System.Models.Department", b =>
-                {
-                    b.Navigation("Employees");
                 });
 #pragma warning restore 612, 618
         }

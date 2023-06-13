@@ -8,8 +8,9 @@ namespace Employe_Management_System.Models
     public class Employee
     {
         [Key]
-
         public int Id { get; set; }
+
+
         [MaxLength(30)]
         [Required]
         public string Name { get; set; }
@@ -18,12 +19,12 @@ namespace Employe_Management_System.Models
         [Required]
         public int Age { get; set; }
 
-        [ForeignKey("Department")]
         [Required]
-        public int Department_Id { get; set; }
+        public virtual int DepartmentId { get; set; }
+        public virtual Department? Department { get; set; }
+
         [Required]
         public double Salary { get; set; }
 
-        public Department Department { get; set; }
     }
 }
