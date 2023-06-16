@@ -1618,11 +1618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Core-Project\\ASPCore-Assignment2\\ASPCore-Assignment2\\ASPCore-Assignment2.csproj",
+      "projectUniqueName": "C:\\Core-Project\\Employe_Management_System\\ASPCore-Assignment2\\ASPCore-Assignment2.csproj",
       "projectName": "ASPCore-Assignment2",
-      "projectPath": "C:\\Core-Project\\ASPCore-Assignment2\\ASPCore-Assignment2\\ASPCore-Assignment2.csproj",
+      "projectPath": "C:\\Core-Project\\Employe_Management_System\\ASPCore-Assignment2\\ASPCore-Assignment2.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Core-Project\\ASPCore-Assignment2\\ASPCore-Assignment2\\obj\\",
+      "outputPath": "C:\\Core-Project\\Employe_Management_System\\ASPCore-Assignment2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

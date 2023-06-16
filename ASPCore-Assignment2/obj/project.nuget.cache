@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iqMM3T9bp10ixliTUqF/og6ECvXBFr5YsnFZFcOJV4eV7hrsA54goevcaI4uVrfpdGhOXUxHESAOodY8YtPkmg==",
+  "dgSpecHash": "HfUUAoTk4CUCxTVNqubTi3mfZz0JojjiMfxZPZRrqjz8627GH50uxl3qiPJ37rV4oRWr5p5CTfIxhTLCtGthyg==",
   "success": true,
-  "projectFilePath": "C:\\Core-Project\\ASPCore-Assignment2\\ASPCore-Assignment2\\ASPCore-Assignment2.csproj",
+  "projectFilePath": "C:\\Core-Project\\Employe_Management_System\\ASPCore-Assignment2\\ASPCore-Assignment2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
