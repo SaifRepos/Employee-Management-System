@@ -21,7 +21,7 @@ namespace ASPCore_Assignment2.Controllers
         }
         [HttpPost]
         [ValidateModel]
-        public async Task<IActionResult> GetEmployees(AddEmployeeDto dto)
+        public async Task<IActionResult> AddEmployees(AddEmployeeDto dto)
         {
 
             var newemployee = mapper.Map<Employee>(dto);
